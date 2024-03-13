@@ -9,7 +9,7 @@
    <!-- Barra de navegação-->
     <nav class="row navbar navbar-expand-lg bg-body-tertiary p-0">
       <div class="container-fluid text-bg-primary p-3">
-        <a class="navbar-brand text-white fs-2 fw-bolder" href="#">DncWeather</a>
+        <a class="navbar-brand mr-5 text-white fs-2 fw-bolder" href="#">DncWeather</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,27 +33,34 @@
       </div>
     </div>
    <!-- Formulário -->
-    <div class="container">
-      <div class="container bg-light">
-        <div class="mt-5 mb-3 row">
-          <label for="inputPassword5" class="form-label">Nome</label>
+    <div class="container mt-5 pt-5" style="width: 700px;">
+      <div class="container m-5 p-5 bg-light align mx-auto border rounded-5">
+        <div class="ms-5 mt-5 mb-3 row" style="width: 620px;">
+          <label for="inputPassword5" class="form-label w-75 pb-2">Primeiro Nome:</label>
           <input type="text" id="nome" class="form-control w-75 bg-body-secondary border-0" placeholder="Insira seu primeiro nome:">
-  
-          <label for="inputPassword5" class="form-label">Email</label>
-          <input type="email" id="email" class="form-control bg-body-secondary w-75 border-0" placeholder="Insira seu E-mail:">
-  
-          <label for="cep" class="form-label">CEP</label>
-          <input type="text" class="form-control bg-body-secondary w-75 border-0" id="cep" placeholder="Insira o CEP" value="">
-           
-          <div class="row">
-            <label for="latitude-longitude" class="form-label">Digite a latitude e longitude para saber a Previsão</label>
-          <input type="text" class="form-control bg-body-secondary border-0 col" id="latitude" placeholder="Latitude" value="">
-
-          <input type="text" class="form-control bg-body-secondary border-0 col" id="longitude" placeholder="Longitude" value="">
-          </div>
-        <div class="mt-5 w-50">
-          <button type="button" id="button" class="btn btn-primary w-100" >CONFIRMAR</button>
         </div>
+          
+        <div class="ms-5 mt-4 mb-3 row" style="width: 620px;">
+          <label for="inputPassword5" class="form-label w-75 pb-2">E-mail:</label>
+          <input type="email" id="email" class="form-control bg-body-secondary w-75 border-0" placeholder="Insira seu E-mail:">
+        </div>
+  
+        <div class="ms-5 mt-4 mb-3 row" style="width: 620px;">
+          <label for="cep" class="form-label w-75 pb-2">Digite o CEP:</label>
+          <input type="text" class="form-control bg-body-secondary w-75 border-0" id="cep" placeholder="Insira o CEP" value="">
+        </div>
+  
+        <div class="ms-5 mt-4 mb-3 row">
+          <label for="latitude-longitude" class="form-label w-75">Digite a latitude e longitude para saber a Previsão:</label>
+        </div>
+        <div class="ms-5 row">
+          <input type="text" class="form-control bg-body-secondary m-2" style="width: 220px;" id="latitude" placeholder="Latitude" 
+            value="">
+          <input type="text" class="form-control bg-body-secondary m-2" style="width: 220px;" id="longitude" placeholder="Longitude" value="">
+        </div style="width: 620px;">
+          <div class="ms-5 mt-5 w-75">
+            <button type="button" id="button" class="btn btn-primary w-100">Acessar</button>
+          </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
