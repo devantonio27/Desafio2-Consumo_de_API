@@ -7,6 +7,9 @@ async function getPrevisao() {
         const data = await response.json();
         console.log(data);        
     }catch(error) {
-        alert(error.message)
+        console.log(error.message)
     }
 }
+
+/*const data = await response.json();
+        console.log(data); */
