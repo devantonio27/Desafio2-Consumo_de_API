@@ -11,5 +11,3 @@ async function getPrevisao() {
     }
 }
 
-/*const data = await response.json();
-        console.log(data); */
